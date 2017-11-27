@@ -1,0 +1,31 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+//@import "reset";
+$white: #fff;
+$paleyellow: #F7EF6A;
+$palegreen:#93C178;
+$paleblue:#465C8B;
+$palesky:#DFDCE3;
+*,h1,h2,h3,h4,h5,h6,p,span,div,{
+  font-family: 'Roboto', sans-serif;  
+box-sizing: border-box;
+}
+html, body{
+  background: #EDEDED;
+  height: 100%;
+  overflow: hidden;
+}
+
+@import "all-task";
+@import "home";
+
+/* .btn {
+  width:100%;
+  padding:10px 20px;
+  text-align: center;
+  margin: 15px 0;
+  .paleblue {
+    font-size: 20px;
+    background: $paleblue;
+  }
+}
+*/

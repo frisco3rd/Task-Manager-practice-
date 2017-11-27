@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task List</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="/css/main.css" rel="stylesheet">
+	<script async defer src="https://buttons.github.io/buttons.js">
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<div id="all-task">
+		<section class="header">
+			<div class="top">
+				<div class="logo">
+					TaskManager
+				</div>
+				<div class="task-total">
+					<div class="task">
+						<span class="number">12</span> Task
+					</div>
+					<div class="task">
+						<span class="number">8</span> Completed
+					</div>
+				</div>
+				<div class="add-circle">
+					<i aria-hidden="true" class="fa fa-plus-circle"></i>
+				</div>
+			</div>
+		</section>
+		<section class="content-area">
+			<div class="container">
+				<div class="task-container">
+					<div class="task-box">
+						<div class="title">
+							Clean Room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+						<div class="check-box">
+							<i aria-hidden="true" class="fa fa-check-square-o"></i>
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+					<div class="task-box">
+						<div class="title">
+							clean room
+						</div>
+						<div class="dates">
+							Created: Janurary 28 2018
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="task-form">
+			<div class="close-btn">
+				<i aria-hidden="true" class="fa fa-times-circle-o"></i>
+			</div>
+			<form>
+				<h3>Add a Task</h3>
+				<div class="form-group">
+					<label>Catagory:</label> <input type="text">
+				</div>
+				<div class="form-group">
+					<label>Catagory:</label> <input type="text">
+				</div>
+				<div class="form-group">
+					<label>Notes:</label> 
+					<textarea></textarea>
+				</div>
+				<div class="form-group">
+					<button type="submit">Add New Task</button>
+				</div>
+			</form>
+		</section>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js">
+	</script> 
+	<script>
+	       $(document).ready(function(){
+	           $('.add-circle').on('click',function(){
+	               $('.task-form').addClass('active')
+	           })
+	           $('.task-form .close-btn').on('click',function(){
+	               $('.task-form').removeClass('active')
+	           })
+	       })
+	   
+	</script>
+</body>
+</html>
